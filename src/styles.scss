@@ -15,6 +15,10 @@ a {
     text-decoration: none;
 }
 
+section.content {
+    max-width: 850px;
+}
+
 .flex {
     display: flex;
 }

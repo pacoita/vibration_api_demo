@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    min-width: 350px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-centered {
+    display: flex;
+    align-items: center;
+}
+
+section {
+    padding: 1.5rem;
+}
+
+div.mat-step-label,
+div.mat-step-label.mat-step-label-active.mat-step-label-selected {
+    min-width: auto;
+}

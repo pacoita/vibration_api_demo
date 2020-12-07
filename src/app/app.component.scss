@@ -1,0 +1,12 @@
+.toolbar-link,
+.toolbar-link:hover,
+.toolbar-link:visited {
+
+    margin-right: 2rem;
+    color: white;
+
+
+    &:last-child {
+        margin-left: auto;
+    }
+}

@@ -1,7 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { QuizComponent } from './quiz/quiz.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: 'home', component: QuizComponent },
+  { path: 'about', loadChildren: () => import('./about/about-routing.module').then(m => m.AboutRoutingModule) },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: '**', redirectTo: '/home' }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

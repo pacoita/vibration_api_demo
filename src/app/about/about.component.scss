@@ -1,0 +1,43 @@
+section {
+  margin-top: 2rem;
+
+  display: flex;
+  justify-content: center;
+
+  .descr-card {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 1rem;
+    max-width: 720px;
+
+    h1 {
+      text-align: center;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem 0;
+
+      .mid-img {
+        margin: 0 2rem;
+      }
+    }
+
+    .img-wrap {
+      text-align: center;
+
+      img {
+        border-radius: 40%;
+        width: 200px;
+      }
+    }
+
+    p.description {
+      margin-top: 1.5rem;
+    }
+  }
+
+
+}

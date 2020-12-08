@@ -4,6 +4,8 @@ This project is a demo to show how the `vibration API` works in a real world exa
 
 🔬 You can test it live [here](https://pacoita.github.io/vibration_api_demo/home) 
 
+![](https://dev-to-uploads.s3.amazonaws.com/i/shn5ponybj7mtrrww7i0.PNG)
+
 I used Angular (version 11.x.x), but the API can be used with any JS framework of choice or even vanilla javascript.
 
 

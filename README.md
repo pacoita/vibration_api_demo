@@ -1,6 +1,8 @@
 # Vibration Api Demo
 
-This project is a demo to show how the `vibration API` works in a real world example.
+This project is a demo to show how the `vibration API` works in a real world example. 
+
+I also wrote an <a href="https://modern-web.hashnode.dev/vibration-api" target="_blank">article</a> about it on Hashnode, if you want to know more about this API.
 
 🔬 You can test it live [here](https://pacoita.github.io/vibration_api_demo/home) 
 

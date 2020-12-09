@@ -31,7 +31,6 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatButtonModule,
     CommonModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

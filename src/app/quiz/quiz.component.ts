@@ -50,5 +50,4 @@ export class QuizComponent implements OnInit {
     this.answers[questionIndex] = isCorrectAnswer;
     targetForm.disable();
   }
-
 }
